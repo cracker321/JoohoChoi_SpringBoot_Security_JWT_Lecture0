@@ -11,8 +11,9 @@ spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/security?serverTimezone=Asia/Seoul
-    username: cos
-    password: cos1234
+    # 내 mysql의 '사용자 root' 내부의 여러 DB들 중에 'security'라는 이름의 DB와 연결시킨다는 의미임.
+    username: root
+    password: 1234
 
 #사실 아래 'mvc:'~'suffix:'까지는 작성해주지 않아도 됨.
   mvc:
