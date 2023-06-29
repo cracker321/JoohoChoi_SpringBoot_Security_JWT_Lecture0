@@ -12,9 +12,11 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 //============================================================================================
 
 
+
+@Configuration //애플리케이션 실행 시, 이것이
+
     //[ '스프링부트 시큐리티 1강 - 환경설정'강 00:00~ ]
 
-@Configuration
     //< 스프링 웹 MVC 구성을 담당해주는 내장 인터페이스 WebMvcConfigurer >
 
     //- 스프링 웹 MVC 구성을 '내 임의대로 커스터마이징'하기 위해, '스프링 내장 인터페이스 WebMvcConfiguruer'를 상속받아,
